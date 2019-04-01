@@ -1,15 +1,15 @@
-# Project: EKvation2
+# Project: uppgift 29
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = "ekvaton\ 2.o"
-LINKOBJ  = "ekvaton 2.o"
+OBJ      = Untitled2.o
+LINKOBJ  = Untitled2.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = EKvation2.exe
+BIN      = "uppgift 29.exe"
 CXXFLAGS = $(CXXINCS) -g3
 CFLAGS   = $(INCS) -g3
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-"ekvaton\ 2.o": ekvaton\ 2.cpp
-	$(CPP) -c "ekvaton 2.cpp" -o "ekvaton 2.o" $(CXXFLAGS)
+Untitled2.o: Untitled2.cpp
+	$(CPP) -c Untitled2.cpp -o Untitled2.o $(CXXFLAGS)

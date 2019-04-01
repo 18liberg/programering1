@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
@@ -6,17 +7,21 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-int b, z;
+int b, z, k;
 
 
-cout<<"Skriv ett nummer mellan 1 - 10: ";
-cin>>b;
+cout<<"skriv ett nummer mellan 1 - 10: " << endl;
+
+cin>> b;
+
+cout << "hur många rader ska det vara";
+cin >> k ;
 
 b = b - 2;
 
 
 
-for(int a = 1; a <=6; a++ ){
+for(int a = 1; a <=k; a++ ){
 z = 0;
 b++;	
 	
@@ -45,23 +50,14 @@ cout<<"_";
 z++;
 	
 }
-
-
 	
 }
-
-
-
-	
 
 cout<<endl;
 	
 }
 
 
-
-
 	return 0;
 }
-
 
