@@ -5,17 +5,19 @@
 using namespace std;
 
 int main() {
-	
-	string x;
-	
-cout << "Skriv in det namn, första bokstaven i ditt namn kommer att bytas ut till ett z" << endl;
-cin >> x;
 
-x[0] =  'Z';
+char ord[189819];
 
-cout << x;
+cout << "Skriv in valfritt ord" << endl;
+cin >> ord;
 
+for(int i = 0; i < 189818; i++)
+{
+	if(ord[i] == 'Z')
+	ord[i] = 'a';
+}
 
+cout << ord;
 
 	return 0;
 }
